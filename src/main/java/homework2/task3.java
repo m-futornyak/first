@@ -14,17 +14,19 @@ import java.util.Scanner;
 
 public class task3 {
     public static void main(String[] args) {
-    System.out.println(rez(x);
-    }
+    System.out.printf("Введите кол-во программистов в компании: ");
+    Scanner console = new Scanner(System.in);
+    int x = console.nextInt();
+        if (x>0) {
+            System.out.printf("Всего было собеседований = " + rez(x));
+        }   else {System.out.printf("сотрудников в компании не может быть меньше 1");}
+        }
 
     public static int rez (int x) {
-        Scanner console = new Scanner(System.in);
-        int x = console.nextInt();
         if (x==1) {
             return 1;
         } else {
             return rez (x - 1) + x;
-            System.out.printf("Всего собеседвоанией было: " + rez);
         }
     }
 }
