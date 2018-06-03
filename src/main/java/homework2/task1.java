@@ -13,15 +13,40 @@ public class task1 {
         if (a == 3 )
             first();
         else if (a==6)
-            System.out.println(a);
+            second();
         else if  (a==9)
-            System.out.println(a);
+            third();
         else
             System.out.printf("Вы ввели неверное число!");
 
     }
 
     public static void first () {
-        System.out.printf ("вложенный класс");    }
+          for (int i=0; i<4; i++) {
+            System.out.printf("\n" + "*****************" + "\n" );
+            for (int n=0; n<5; n++) {
+                System.out.printf("*" + "   ");
+            }
+          }
+        System.out.printf("\n" + "*****************" + "\n" );
+    }
 
+    public static void second () {
+        for (int i=0; i<4; i++) {
+            System.out.printf("\n" + "*****************************" + "\n" );
+            for (int x=0; x<5; x++) {
+                System.out.printf("*" + "      " );
+            }
+            System.out.printf ("\n");
+            for (int y=0; y<5; y++) {
+                System.out.printf("*" + "      ");
+            }
+
+        }
+        System.out.printf("\n" + "*****************************" + "\n" );
+    }
+
+    public static void third () {
+
+    }
 }
