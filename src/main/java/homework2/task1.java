@@ -47,6 +47,21 @@ public class task1 {
     }
 
     public static void third () {
+        for (int i=0; i<4; i++) {
+            System.out.printf("\n" + "*****************************************" + "\n" );
+            for (int x=0; x<5; x++) {
+                System.out.printf("*" + "         " );
+            }
+            System.out.printf ("\n");
+            for (int y=0; y<5; y++) {
+                System.out.printf("*" + "         ");
+            }
+            System.out.printf ("\n");
+            for (int e=0; e<5; e++) {
+                System.out.printf("*" + "         ");
+            }
 
+        }
+        System.out.printf("\n" + "*****************************************" + "\n" );
     }
 }
