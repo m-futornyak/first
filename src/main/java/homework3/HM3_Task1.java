@@ -1,4 +1,4 @@
-package homework2;
+package homework3;
 
 import java.util.Scanner;
 
@@ -12,7 +12,7 @@ import java.util.Scanner;
 Вывести ДА, если последовательность символов палиндром и НЕТ в противном случае. */
 
 
-public class task4 {
+public class HM3_Task1 {
     public static void main(String[] args) {
         System.out.printf("Введите последовательность символов: ");
         Scanner console = new Scanner(System.in);
